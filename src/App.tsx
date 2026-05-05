@@ -61,7 +61,7 @@ export default function App() {
       <div className="fixed inset-0 bg-slate-900/60 backdrop-blur-md z-40 flex items-center justify-center p-6 sm:p-8 animate-in fade-in duration-300">
         
         {/* Modal Wrapper for absolute positioning outside */}
-        <div className="relative w-full max-w-[95%] mx-auto sm:max-w-[1000px] animate-in zoom-in-[0.98] duration-500 ease-out">
+        <div className="relative w-full max-w-[95%] mx-auto sm:max-w-[1000px]">
           
           {/* Close Icon (Outside on PC, Inside on Mobile) */}
           <button 
